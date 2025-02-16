@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgba(0, 0, 0, 0.897);
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    margin: 2rem 8rem 4rem;
+    display: flex;
+    font-weight: 600;
+    padding: 0rem 2rem;
+    background: linear-gradient(90deg, rgb(127, 216, 245), rgb(255, 140, 0));
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem 0 2rem;
+}
+
+a {
+    padding: 0.3em 0.6em;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover,
+.info button:hover {
+    background-color: orange;
+    border: none;
+    border-radius: 1em;
+    transition: background-color 0.3s ease-in;
+}
+
+.logo {
+    width: 70px;
+    border-radius: 40% 0 40%;
+}
+
+.logo:hover {
+    transform: rotate(90deg);
+    transition: 0.5s ease-out;
+}
+
+.navinfo {
+    font-size: 1.2rem;
+    display: flex;
+    gap: 3em;
+
+    align-items: center;
+}
+
+.navbt {
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.3em 0.6em;
+    border-radius: 1em;
+    color: white;
+    background-color: black;
+}
+
+.mainpage {
+    padding: 3rem;
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.524);
+}
+
+.mainpage img {
+    width: 350px;
+    border-radius: 30px;
+}
+
+.quote {
+    font-size: 1.7rem;
+    font-style: italic;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgb(127, 216, 245), orange);
+    background-clip: text;
+    color: transparent;
+}
+
+.visuals {
+    margin: 4rem 8rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+.visuals>div {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-wrap: wrap;
+    /* border: 1px solid orange ; */
+    border-radius: 1em;
+}
+
+.visuals img {
+    border-radius: 2rem 0 2rem;
+    display: block;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.visuals h1 {
+    color: orange;
+}
+
+.info {
+    width: 300px;
+
+}
+
+.info p {
+    opacity: 0.8;
+}
+
+.visuals button {
+    width: 10em;
+    border-radius: 1em;
+    border-style: none;
+    background: rgb(127, 216, 245);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5em 0.3em;
+}
+
+.footer {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.322);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
